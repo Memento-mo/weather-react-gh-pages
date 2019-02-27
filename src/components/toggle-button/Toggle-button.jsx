@@ -34,9 +34,9 @@ export default class ToggleButton extends React.Component {
         
         return (
             <div className="toggle-button-cover">
-                <div className="button-cover" onClick={changeTemp}>
+                <div className="button-cover" >
                     <div className={buttonC}>°C</div>
-                    <div className="button r" id="button-1">
+                    <div className="button r" id="button-1" onClick={changeTemp}>
                         <input type="checkbox" className="checkbox" onChange={this.handleChange} onClick={translationOfTemperature}/>
                         <div className="knobs"></div>
                         <div className="layer"></div>
