@@ -250,4 +250,8 @@
     .header-main__input_cities {
         width: 180px;
     }
+
+    .header-main__input_cities[type="text"]::placeholder {
+        font-size: 16px;
+    }
 }   
