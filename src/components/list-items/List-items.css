@@ -1,0 +1,19 @@
+.list-items {
+    padding: 0;
+}
+
+.list-items__item {
+    list-style: none;
+}
+
+.list-items_item {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 424px) {
+
+    .list-items_item {
+        padding-bottom: 2px;
+    }
+
+}

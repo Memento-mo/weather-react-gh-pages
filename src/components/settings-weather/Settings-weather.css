@@ -1,0 +1,31 @@
+.header-submain {
+    margin-top: 55px;
+}
+
+.header-submain__block {
+    display: flex;
+    align-items: center;
+}
+
+.header-submain__block-arrow {
+    width: 32px;
+    height: 32px;
+}
+
+.header-submain__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-submain__block-text {
+    width: 65px;
+}
+
+.header-submain__block-text_title {
+    font-size: 14px;
+}
+
+.header-submain__block-text_descr {
+    opacity: 0.4;
+    font-size: 13px;
+}

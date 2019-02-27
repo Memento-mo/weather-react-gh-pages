@@ -1,0 +1,178 @@
+.header {
+    position: relative;
+}
+
+.header-container {
+    width: 470px;
+    margin: 0 auto;
+}
+
+.header-main {
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+
+.header__time {
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.header__city {
+    position: absolute;
+    top: 10px;
+    font-weight: 600;
+}
+
+.header-main__img {
+    position: relative;
+    top: 10px;
+}
+
+.header-main__img_moon {
+    height: 55px;
+    width: 55px;
+}
+
+.header-main__temperature {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: -30px;
+    margin-right: 20px;
+    font-size: 40px;
+    width: 80px;
+}
+
+.header-main__temperature_indents {
+    margin-left: 80px;
+}
+
+.header-main__temperature_sup {
+    position: relative;
+    top: -19px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.header-main__input_cities {
+    background: transparent;
+    border: 2px solid transparent;
+    outline: none;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.header-main__input_indents {
+    padding-left: 30px;
+}
+
+.header-main__input_cities[type="text"]::placeholder {
+    opacity: 0.5;
+    color: #fff; 
+}
+
+.header-main__input_cities:focus {
+    border-bottom: 2px solid rgb(72,61,139);
+}
+
+.button-clear {
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    top: 17px;
+    left: 225px;
+    outline: none;
+    font-weight: 300;
+}
+
+.button-clear:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 568px) {
+    .header__time {
+        font-size: 16px;
+        right: 42px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .header__time {
+        font-size: 13px;
+        right: 110px;
+    }
+
+    .header__city {
+        font-size: 13px;
+    }
+
+    .header-main__temperature {
+        font-size: 27px;
+    }
+
+    .header-main__temperature_sup {
+        font-size: 13px;
+    }
+
+    .header-main__img {
+        top: 19px;
+    }
+
+    .header-main__input_cities[type="text"]::placeholder {
+        font-size: 14px;
+    }
+
+    .header-main__input_indents {
+        padding-left: 0;
+    }
+
+    .header-main__input_cities {
+        width: 120px;
+    }
+
+    .header-submain__block-text_title {
+        font-size: 12px;
+    }
+
+    .header-submain__block-text_title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__time {
+        right: 127px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__time {
+        right: 140px;
+        font-size: 12px;
+    }
+
+    .header-main__temperature_indents {
+        margin-left: 48px;
+    }
+    .header-main__input_cities {
+        width: 100px;
+    }
+
+    .header-main__temperature {
+        top: 5px;
+    }
+
+    .header-main__img {
+        top: 14px;
+    }
+
+    .header-submain {
+        margin-top: 29px;
+    }
+}
