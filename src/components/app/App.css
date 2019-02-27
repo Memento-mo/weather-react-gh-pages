@@ -44,6 +44,7 @@
     position: relative;
     top: 130px;
     left: 46%;
+    width: 150px;
 }
 
 .weather-app__block-header {
