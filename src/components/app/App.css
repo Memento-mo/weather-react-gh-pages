@@ -9,7 +9,7 @@
     margin: 0 auto;
     box-shadow: 0px 4px 30px 2px rgb(0, 0, 0, 0.5);
     position: relative;
-    top: 20%;
+    top: 15%;
 }
 
 .container {
@@ -62,11 +62,12 @@
 
     .weather-toggle {
         left: 38%;
+        top: 50px;
     }
 
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 500px) {
     .weather-app__block {
         width: 370px;
     }
@@ -81,6 +82,7 @@
 
     .weather-toggle {
         left: 32%;
+        top: 46px;
     }
 
 }
@@ -101,7 +103,7 @@
 
     .weather-toggle {
         left: 29%;
-        top: 113px;
+        top: 50px;
     }
 }
 
@@ -120,6 +122,6 @@
 
     .weather-toggle {
         left: 28%;
-        top: 59px;
+        top: 50px;
     }
 }
