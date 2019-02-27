@@ -38,7 +38,7 @@
     width: 20px;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (min-width: 500px) {
     .weather-day {
         font-size: 14px;
     }
@@ -57,7 +57,30 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 320px) {
+    .weather-day {
+        font-size: 12px;
+        width: 64px;
+    }
+
+    .weather-max {
+        margin-left: 10px;
+    }
+
+    .weather-temp {
+        font-size: 12px;
+    }
+
+    sub, sup {
+        font-size: 55%;
+    }
+
+    .weather-feel {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 568px) {
     .weather-day {
         font-size: 13px;
         width: 80px;
@@ -77,5 +100,30 @@
 
     .weather-feel {
         font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .weather-day {
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .weather-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .weather-temp {
+        font-size: 16px;
+    }
+
+    sub, sup {
+        font-size: 75%;
+    }
+
+    .weather-feel {
+        font-size: 16px;
     }
 }

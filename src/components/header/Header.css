@@ -95,21 +95,84 @@
     outline: none;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 320px) {
+    .weather-block__header {
+        width: 300px;
+    }
     .header__time {
-        font-size: 16px;
-        right: 42px;
+        right: 149px;
+        font-size: 12px;
+    }
+
+    .header-main__temperature_indents {
+        margin-left: 48px;
+    }
+    .header-main__input_cities {
+        width: 100px;
+    }
+
+    .header-main__temperature {
+        top: 5px;
+        font-size: 30px;
+        left: -39px;
+    }
+
+    .header-main__temperature_sup {
+        font-size: 14px;
+        margin-left: 4px;
+    }
+
+    .header-main__img {
+        top: 14px;
+    }
+
+    .header-submain {
+        margin-top: 29px;
+    }
+
+    .header-main__input_indents {
+        padding: 0;
+    }
+
+    .header__city {
+        font-size: 14px;
+        top: 6px;
+    }
+    .header-main__input_cities[type="text"]::placeholder {
+        font-size: 13px;
+    }
+    .header-main__input_cities {
+        width: 120px;
+    }
+
+    .header-submain__block-text_title {
+        font-size: 12px;
+    }
+
+    .header-submain__block-text-descr {
+        font-size: 12px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 375px) {
     .header__time {
-        font-size: 13px;
+        right: 144px;
+    }
+
+    .header-container {
+        width: 310px;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    .header__time {
+        font-size: 14px;
         right: 110px;
     }
 
     .header__city {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .header-main__temperature {
@@ -137,42 +200,54 @@
     }
 
     .header-submain__block-text_title {
-        font-size: 12px;
-    }
-
-    .header-submain__block-text_title {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 568px) {
     .header__time {
-        right: 127px;
+        font-size: 16px;
+        right: 42px;
     }
+
+    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 992px) {
     .header__time {
-        right: 140px;
-        font-size: 12px;
-    }
-
-    .header-main__temperature_indents {
-        margin-left: 48px;
-    }
-    .header-main__input_cities {
-        width: 100px;
-    }
-
-    .header-main__temperature {
-        top: 5px;
-    }
-
-    .header-main__img {
-        top: 14px;
+        font-size: 18px;
+        right: 19px;
     }
 
     .header-submain {
-        margin-top: 29px;
+        margin-top: 55px;
     }
-}
+
+    .header-main__temperature {
+        font-size: 40px;
+        top: 10px;
+        left: -30px;
+        margin-right: 20px;
+        width: 80px;
+    }
+
+    .header-main__temperature_sup {
+        font-size: 16px;
+    }
+
+    .header-main__temperature_indents {
+        margin-left: 80px;
+    }
+
+    .header-main__img {
+        top: 10px;
+    }
+
+    .header-main__input_indents {
+        margin-left: 30px;
+    }
+
+    .header-main__input_cities {
+        width: 180px;
+    }
+}   
