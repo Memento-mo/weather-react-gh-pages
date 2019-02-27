@@ -90,6 +90,12 @@
     }
 }
 
+@media screen and (min-width: 424px) {
+    .weather-toggle {
+        left: 35%;
+    }
+}
+
 @media screen and (min-width: 500px) {
     .weather-app__block {
         width: 370px;
