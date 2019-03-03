@@ -19,7 +19,7 @@
 
 .weather-block__header {
     padding-bottom: 8px;
-    width: 560px;
+    width: 100%;
 }
 
 .header_text {
