@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/weather-react-gh-pages/static/js/runtime~main.0676c17d.js"
   },
   {
-    "revision": "a9875ebe731036c305bb",
-    "url": "/weather-react-gh-pages/static/js/main.a9875ebe.chunk.js"
+    "revision": "faf12c781302465d5909",
+    "url": "/weather-react-gh-pages/static/js/main.faf12c78.chunk.js"
   },
   {
     "revision": "bb473fd280a54f9a3adf",
     "url": "/weather-react-gh-pages/static/js/2.bb473fd2.chunk.js"
   },
   {
-    "revision": "a9875ebe731036c305bb",
-    "url": "/weather-react-gh-pages/static/css/main.96fd913e.chunk.css"
+    "revision": "faf12c781302465d5909",
+    "url": "/weather-react-gh-pages/static/css/main.07cc3672.chunk.css"
   },
   {
-    "revision": "7811b690711d222606eaa77f5fea5b84",
+    "revision": "6025bd80f49fed7f5ca1442cb6c677aa",
     "url": "/weather-react-gh-pages/index.html"
   }
 ];
