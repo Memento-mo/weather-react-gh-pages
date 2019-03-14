@@ -100,7 +100,7 @@
         width: 300px;
     }
     .header__time {
-        right: 149px;
+        right: 12px;
         font-size: 12px;
     }
 
@@ -156,7 +156,7 @@
 
 @media screen and (min-width: 375px) {
     .header__time {
-        right: 144px;
+        right: 12px;
     }
 
     .header-container {
@@ -168,7 +168,7 @@
 @media screen and (min-width: 500px) {
     .header__time {
         font-size: 14px;
-        right: 110px;
+        right: 12px;
     }
 
     .header__city {
