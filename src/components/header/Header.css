@@ -168,7 +168,7 @@
 @media screen and (min-width: 500px) {
     .header__time {
         font-size: 14px;
-        right: 13px;
+        right: 12px;
     }
 
     .header__city {
